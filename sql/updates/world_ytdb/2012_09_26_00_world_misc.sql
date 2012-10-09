@@ -1,3 +1,4 @@
+/* Not right data for YTDB
 
 -- Scripted Npc Infiltrator Marksen (Zombie Form 7293) From Sniff author expecto Closes #6910
 UPDATE creature_template SET AIName = 'SmartAI', `spell1` = 7293 WHERE entry = 5416;

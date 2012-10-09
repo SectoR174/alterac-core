@@ -14,7 +14,6 @@ set(scripts_STAT_SRCS
   Custom/npc_mount.cpp 
   Custom/argent_tournament.cpp
   Custom/dalaran_squirrel.cpp
-  Custom/npc_reforging.cpp
 )
 
 message("  -> Prepared: Custom")
