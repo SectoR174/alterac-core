@@ -23,7 +23,8 @@ void AddSC_example_escort();
 void AddSC_example_gossip_codebox();
 void AddSC_example_misc();
 void AddSC_example_commandscript();
-
+//Transmogrify
+void AddSC_NPC_Transmogrify();
 //TeleNPC2
 void AddSC_npc_teleport();
 //Hunter Pet Vendor
@@ -1286,6 +1287,8 @@ void AddCustomScripts()
 {
 #ifdef SCRIPTS
     /* This is where custom scripts should be added. */
+	//Transmogrify
+	AddSC_NPC_Transmogrify();
     //TeleNPC2
     AddSC_npc_teleport();
     //Hunter Pet Vendor
